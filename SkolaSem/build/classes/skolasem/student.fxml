@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="356.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="skolasem.StudentController">
+   <children>
+      <TableView fx:id="popup" layoutX="53.0" layoutY="69.0" prefHeight="250.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="Nazev" prefWidth="99.0" text="Nazev" />
+          <TableColumn fx:id="Zapocet" prefWidth="100.0" text="Zapocet" />
+        </columns>
+      </TableView>
+      <TableView fx:id="popup2" layoutX="343.0" layoutY="69.0" prefHeight="250.0" prefWidth="200.0">
+         <columns>
+            <TableColumn fx:id="Nazev2" prefWidth="101.0" text="Nazev" />
+            <TableColumn fx:id="Zkouska" prefWidth="98.0" text="Zkouska" />
+         </columns>
+      </TableView>
+      <Label layoutX="200.0" layoutY="24.0" prefHeight="36.0" prefWidth="212.0" text="Náhled studenta">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
